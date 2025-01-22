@@ -55,7 +55,7 @@ dependencies {
     implementation fileTree(include: ['*.jar', '*.aar'], dir: 'libs')
 
     implementation project(':library')
-    implementation project(':SwiftKit:basick')
+    implementation project(':ASwiftKit:basick')
 
     // 权限请求框架：https://github.com/getActivity/XXPermissions
     implementation 'com.github.getActivity:XXPermissions:18.5'

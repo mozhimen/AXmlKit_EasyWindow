@@ -9,6 +9,8 @@ android {
         multiDexEnabled true
 //        versionCode 1062
 //        versionName "10.62"
+
+        consumerProguardFiles "consumer-rules.pro"
     }
 
     // 支持 JDK 1.8
